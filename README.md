@@ -26,7 +26,5 @@ CODE Acknowledgements:
 
 Line 8: Suggested by Mr.X to help with loading the file.
 Line 10-11: CHATGPT helped with how to load the words from a text file.
-Line 40-41: Original code failed to produce intended output, which was then revised by ChatGPT on line 43.
-Line 45-52: Gained an understanding of how to create folders and save results directly into them without having to create the folders manually, with guidance from ChatGPT.
-
-
+Line 42-43: Original code failed to produce intended output, which was then revised by ChatGPT on line 45.
+Line 47-54: Gained an understanding of how to create folders and save results directly into them without having to create the folders manually, with guidance from ChatGPT.
