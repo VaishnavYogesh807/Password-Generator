@@ -51,8 +51,6 @@ def log_password(folder, password):
     with open(path, "a") as f:
         f.write(f"[{time.ctime()}] {password}\n")
 
-
-# --- Test: generate 1000 passwords ---
 for _ in range(1000):
     pass_type = random.choice(["memorable", "random"])
 
@@ -62,6 +60,3 @@ for _ in range(1000):
     else:
         pw = random_password(10, True, "l1O0")
         log_password("Random", pw)
-
-
-        
