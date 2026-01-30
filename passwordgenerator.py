@@ -19,9 +19,9 @@ def memorable_password(n, case):
 
         num = random.randint(0, 9)
 
-        if case == 'upper':
+        if case == "upper":
             word = word.capitalize()
-        elif case == 'lower':
+        elif case == "lower":
             word = word.lower()
 
         result.append(word + str(num))
@@ -40,7 +40,7 @@ def random_password(n, punct, char):
     #for i in range(n):
         #return''.join(random.choice(characters))
     
-    return ''.join(random.choice(characters) for _ in range(n))
+    return "".join(random.choice(characters) for _ in range(n))
 
 def log_password(folder, password):
     if not os.path.exists(folder):
