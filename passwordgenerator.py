@@ -20,9 +20,11 @@ def memorable_password(n, case):
         num = random.randint(0, 9)
 
         if case == "upper":
-            word = word.capitalize()
+            word = word.upper()
         elif case == "lower":
             word = word.lower()
+        elif case == "title":
+            word = word.title()
 
         result.append(word + str(num))
     
@@ -50,6 +52,7 @@ def log_password(folder, password):
 
     with open(path, "a") as f:
         f.write(f"[{time.ctime()}] {password}\n")
+
 
 for _ in range(1000):
     pass_type = random.choice(["memorable", "random"])
