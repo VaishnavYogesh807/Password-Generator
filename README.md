@@ -22,7 +22,7 @@ Modules Used:
   File handling
 
 
-CODE COMMENTS:
+CODE Acknowledgements:
 
 Line 8: Suggested by Mr.X to help with loading the file.
 Line 10-11: CHATGPT helped with how to load the words from a text file.
